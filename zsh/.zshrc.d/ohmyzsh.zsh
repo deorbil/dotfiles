@@ -102,6 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="lsd --almost-all --dereference --group-dirs=first --literal"
+alias ls="lsd"
 alias vi="nvim"
 alias yay="paru"

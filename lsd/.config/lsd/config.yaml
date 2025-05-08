@@ -1,0 +1,8 @@
+dereference: true
+
+display: almost-all
+
+sorting:
+  dir-grouping: first
+
+literal: true
