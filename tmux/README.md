@@ -1,9 +1,9 @@
 # tmux
 
 [![tmux][tmux-badge]][tmux]
-[![catppuccin][catppuccin-badge]][catppuccin]
+[![tpm][tpm-badge]][tpm]
 
 [tmux]: https://github.com/tmux/tmux
 [tmux-badge]: https://img.shields.io/badge/tmux-tmux-green
-[catppuccin]: https://github.com/catppuccin/tmux
-[catppuccin-badge]: https://img.shields.io/badge/catppuccin-tmux-blue
+[tpm]: https://github.com/tmux-plugins/tpm
+[tpm-badge]: https://img.shields.io/badge/tmux--plugins-tpm-blue
