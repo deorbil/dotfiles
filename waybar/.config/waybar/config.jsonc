@@ -1,0 +1,106 @@
+{
+  "margin-left": 10,
+  "margin-right": 10,
+  "margin-top": 10,
+  "spacing": 10,
+  // Choose the order of the modules
+  "modules-left": [
+    "custom/logo",
+    "tray"
+  ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  "modules-right": [
+    "bluetooth",
+    "network",
+    "pulseaudio",
+    "battery",
+    "backlight",
+    "clock"
+  ],
+  // Modules configuration
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "󰃞",
+      "󰃠"
+    ],
+    "scroll-step": 5,
+    "tooltip": false
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-full": "",
+    "format-icons": {
+      "charging": [
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ],
+      "default": [
+        "󰁺",
+        "󰁻",
+        "󰁽",
+        "󰁼",
+        "󰁾",
+        "󰁿",
+        "󰂁",
+        "󰂀",
+        "󰂂",
+        "󰁹"
+      ]
+    },
+    "tooltip": false
+  },
+  "bluetooth": {
+    "format": "",
+    "format-connected": "󰂱 {device_alias}",
+    "format-on": "󰂯"
+  },
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "tooltip-format": "{:%B %d, %Y}"
+  },
+  "custom/logo": {
+    "format": "󰣇"
+  },
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "*": 4
+    }
+  },
+  "network": {
+    "format-disconnected": "󰖪",
+    "format-ethernet": "",
+    "format-icons": [
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ],
+    "format-wifi": "{icon} {essid}",
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ],
+    "on-click": "pavucontrol",
+    "scroll-step": 5
+  },
+  "tray": {
+    "spacing": 10
+  }
+}
