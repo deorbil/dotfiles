@@ -1,3 +1,7 @@
+* {
+  font-family: "Adwaita Sans", "Symbols Nerd Font";
+}
+
 #waybar {
   background: transparent;
   color: #ffffff;
