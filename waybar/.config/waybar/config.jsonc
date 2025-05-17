@@ -5,6 +5,7 @@
   "spacing": 10,
   // Choose the order of the modules
   "modules-left": [
+    "custom/logo",
     "tray"
   ],
   "modules-center": [
@@ -67,6 +68,9 @@
   "clock": {
     "format": "{:%I:%M %p}",
     "tooltip-format": "{:%B %d, %Y}"
+  },
+  "custom/logo": {
+    "format": "󰣇"
   },
   "hyprland/workspaces": {
     "persistent-workspaces": {
