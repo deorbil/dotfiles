@@ -103,7 +103,7 @@ export EDITOR="nvim"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="lsd"
+alias ls="lsd --almost-all --group-directories-first"
 alias vi="nvim"
 alias y="yazi"
 alias yay="paru"
