@@ -1,0 +1,1 @@
+source ~/antigen/antigen.zsh
