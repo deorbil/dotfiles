@@ -1,3 +1,4 @@
 adjust-cell-height = 20%
 font-family = CaskaydiaCove Nerd Font
 theme = Catppuccin Mocha
+window-inherit-working-directory = false
