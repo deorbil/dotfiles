@@ -1,4 +1,6 @@
 adjust-cell-height = 20%
+background = #000000
+background-opacity = 0.5
 font-family = CaskaydiaCove Nerd Font
 theme = Catppuccin Mocha
 window-inherit-working-directory = false
