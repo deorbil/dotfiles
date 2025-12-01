@@ -1,3 +1,5 @@
+export EDITOR="nvim"
+
 if [[ -d "$HOME/.zshrc.d" ]]; then
   for rc in "$HOME/.zshrc.d"/*.zsh(N); do
     if [[ -f "$rc" ]]; then
