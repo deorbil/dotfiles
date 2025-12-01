@@ -1,1 +1,9 @@
 source "$HOME/antigen/antigen.zsh"
+
+antigen use oh-my-zsh
+
+antigen bundle git
+
+antigen theme robbyrussell
+
+antigen apply
